@@ -2,7 +2,7 @@ function WebtileComponent(options) {
 
 
   var style = document.createElement('style');
-  style.innerHTML = `@import url("https://webtile-plugin.vercel.app/style.css");`;
+  style.innerHTML = `@import url("https://cdn.jsdelivr.net/gh/webtiles/webtiles@latest/style.css");`;
   document.body.appendChild(style);
 
 
